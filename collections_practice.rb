@@ -23,3 +23,8 @@ end
 def reverse_array(array)
   array.reverse 
 end
+
+def kesha_maker
+  new_arr = []
+  array.each{ |el|  }
+end 
