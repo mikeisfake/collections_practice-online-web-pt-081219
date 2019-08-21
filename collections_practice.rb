@@ -29,3 +29,7 @@ def kesha_maker(array)
   new_arr << array.each {|el| el[2] = "$"}
   new_arr 
 end 
+
+def
+
+end 
