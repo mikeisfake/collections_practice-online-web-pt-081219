@@ -24,7 +24,7 @@ def reverse_array(array)
   array.reverse 
 end
 
-def kesha_maker
+def kesha_maker(array)
   new_arr = []
   new_arr << array.each{ |el| el[3] = "$" }
   new_arr 
