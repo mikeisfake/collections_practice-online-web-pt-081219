@@ -26,5 +26,5 @@ end
 
 def kesha_maker
   new_arr = []
-  array.each{ |el|  }
+  new_arr << array.each{ |el| el[3] = "$" }
 end 
