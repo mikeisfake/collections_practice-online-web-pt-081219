@@ -36,7 +36,9 @@ end
 
 def add_s(array)
   array.each_with_index.map do |el, i|
-  if i != 1 
+  if i == 1 
+    el 
+  elsif i !== 1 
     el << "s"
   end 
 end 
