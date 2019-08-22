@@ -32,6 +32,10 @@ end
 
 def find_a(array)
   array.select{ |el| el.start_with?("a") }
+end
+
+def sum_array(array)
+  
 end 
 
 def add_s(array)
