@@ -27,7 +27,7 @@ end
 def kesha_maker(array)
   new_arr = []
   array.map {|el| el.sub(el[2], "$")}
-  
+  new_arr
 end 
 
 def find_a(array)
