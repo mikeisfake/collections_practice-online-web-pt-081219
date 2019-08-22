@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   new_arr = []
-  new_arr << array.each {|el| puts el[2] = "$"}
+  new_arr << array.each {|el| puts el[2] }
   new_arr 
 end 
 
