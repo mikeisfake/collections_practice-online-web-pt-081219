@@ -33,3 +33,10 @@ end
 def find_a(array)
   array.select{ |el| el.start_with?("a") }
 end 
+
+def add_s(array)
+  array.each_with_index.map do |el, i|
+  if i != 1 
+    el << "s"
+  end 
+end 
