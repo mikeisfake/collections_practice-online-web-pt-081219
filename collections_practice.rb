@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   new_arr = []
-  array.map {|el| el[2] = "$"}
+  array.map {|el| el.sub(el[2]) = "$"}
   
 end 
 
